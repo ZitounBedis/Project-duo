@@ -32,12 +32,13 @@ function showSlides() {
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
 }
-var clicked = false;
 var myVideo = document.getElementById("video1");
 
 function makeBig() {

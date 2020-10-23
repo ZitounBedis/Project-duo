@@ -239,3 +239,8 @@ img {
     left: 10%;
     transform: translate(-50%, -50%)
 }
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}

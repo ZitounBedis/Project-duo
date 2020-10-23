@@ -18,28 +18,30 @@
     </head>
 
     <body>
+        <div id="main">
 
-        <video autoplay muted loop id="myVideo">
+            <video autoplay muted loop id="myVideo">
             <source src="background.mp4" type="video/mp4"  >
           </video>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="ps.html">PS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/1200px-Playstation_logo_colour.svg.png" width="30px"></a>
-            <a href="xbox.html">XBOX<img src="xboxlogo.png" width="60px"></a>
-            <a href="wii.html">WII <img src="wii.png" width="25px"></a>
-            <a href="pc.html">PC<img src="pclogo.png" width="60px"></a>
-            <a href="mobile.html">Mobile.G <img src="mobilelogo.png" width="40px"></a>
-            <a href="nintendo.html">Nintendo <img src="nintendo.png" width="30px"></a>
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="ps.html">PS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/1200px-Playstation_logo_colour.svg.png" width="30px"></a>
+                <a href="xbox.html">XBOX<img src="xboxlogo.png" width="60px"></a>
+                <a href="wii.html">WII <img src="wii.png" width="25px"></a>
+                <a href="pc.html">PC<img src="pclogo.png" width="60px"></a>
+                <a href="mobile.html">Mobile.G <img src="mobilelogo.png" width="40px"></a>
+                <a href="nintendo.html">Nintendo <img src="nintendo.png" width="30px"></a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+            <img id="gaming" src="gaming.png">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;<img id="logo" src="Plogo.png" ></span>
         </div>
-        <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-
-        </ul>
-        <img id="gaming" src="gaming.png">
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;<img id="logo" src="Plogo.png" ></span>
-
     </body>
     <script src="project.js"></script>
 
