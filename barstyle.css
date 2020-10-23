@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(88, 21, 21);
+}
+
+li {
+    float: left;
+}
+
+.menu {
+    font-family: 'Revalia', cursive;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+    color: rgb(88, 21, 21);
+}
+
+p {
+    color: blanchedalmond;
+}
+
+h1 {
+    font-family: 'Revalia', cursive;
+    ;
+}
+
+h1 {
+    font-size: 700%;
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h1 {
+    text-shadow: 2px 2px white;
+}
+
+p {
+    font-size: 300%;
+}
+
+p {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%)
+}
