@@ -29,3 +29,25 @@ function showSlides() {
     dots[slideIndex - 1].className += " active";
     setTimeout(showSlides, 1500);
 }
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+var clicked = false;
+var myVideo = document.getElementById("video1");
+
+function makeBig() {
+    myVideo.width = 560;
+}
+
+function makeSmall() {
+    myVideo.width = 320;
+}
+
+function makeNormal() {
+    myVideo.width = 420;
+}

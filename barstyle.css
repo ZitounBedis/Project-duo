@@ -92,3 +92,53 @@ p {
     left: 55%;
     transform: translate(-50%, -50%)
 }
+
+#call {
+    position: absolute;
+    top: 57%;
+    left: 35%;
+    transform: translate(-50%, -50%)
+}
+
+#call {
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336;
+}
+
+#call:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+#call {
+    width: 80px;
+}
+
+#call {
+    font-family: 'Ultra', serif;
+}
+
+#mail {
+    font-family: 'Chakra Petch', sans-serif;
+    color: whitesmoke;
+}
+
+#fb {
+    font-family: 'Chakra Petch', sans-serif;
+    color: whitesmoke;
+}
+
+#mail {
+    position: absolute;
+    top: 54%;
+    left: 51%;
+    transform: translate(-50%, -50%)
+}
+
+#fb {
+    position: absolute;
+    top: 54%;
+    left: 65%;
+    transform: translate(-50%, -50%)
+}
