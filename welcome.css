@@ -1,0 +1,117 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1 {
+    background-image: url("https://gamingbolt.com/wp-content/uploads/2020/06/Resident-Evil-Village-Chris-Punished.jpg");
+}
+
+.img2 {
+    background-image: url("https://cdn.hipwallpaper.com/i/67/31/FJNYHc.jpg");
+}
+
+.img3 {
+    background-image: url("https://wallpaperaccess.com/full/1607439.jpg");
+}
+
+.img4 {
+    background-image: url("https://www.ioi.dk/wp-content/uploads/2020/06/HITMAN3_Article_Tile-1.jpg");
+}
+
+.img5 {
+    background-image: url("https://play4.uk/wp-content/uploads/2020/08/werewolf-the-apocalypse-earthblood-release-date-4513-big-1.jpg");
+}
+
+.img6 {
+    background-image: url("https://britgamer.s3.eu-west-1.amazonaws.com/2020-07/far-cry-6-banner.webp");
+}
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 16px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: black;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.container {
+    color: whitesmoke;
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.registerbtn {
+    color: brown;
+}
